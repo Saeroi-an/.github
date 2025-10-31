@@ -1,12 +1,45 @@
-## Hi there 👋
+# 새로이 안(安)
 
-<!--
+당신의 편안한 진료를 위해, AI 의료 서비스
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 📝 소개 (Overview)
+이 섹션에는 프로젝트의 간단한 개요나 배경을 적습니다.
+예:
+> 이 앱은 사용자의 건강 습관을 기록하고, AI 분석을 통해 맞춤형 피드백을 제공하는 모바일 서비스입니다.
+
+---
+
+## 🚀 주요 기능 (Features)
+- 🔹 사용자 정보 입력 및 관리
+- 🔹 AI 분석 기반 맞춤형 리포트
+- 🔹 다국어 지원 (한국어 / 일본어 / 영어)
+- 🔹 React Native + FastAPI 연동 구조
+
+---
+
+## 🛠️ 기술 스택 (Tech Stack)
+| 분류 | 사용 기술 |
+|------|------------|
+| Frontend | React Native (Expo), JavaScript |
+| Backend | FastAPI, Python, SQLAlchemy |
+| Database | Supabase |
+| AI | Hugging Face Transformers |
+| Deployment | AWS S3, Ngrok |
+
+---
+
+## 📦 설치 및 실행 (Installation)
+```bash
+# 1. Clone repository
+git clone https://github.com/<username>/<repo-name>.git
+
+# 2. Move into directory
+cd <repo-name>
+
+# 3. Install dependencies
+npm install   # or yarn install
+
+# 4. Run app
+npm start
