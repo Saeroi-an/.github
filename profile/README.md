@@ -23,23 +23,9 @@
 | 분류 | 사용 기술 |
 |------|------------|
 | Frontend | React Native (Expo), JavaScript |
-| Backend | FastAPI, Python, SQLAlchemy |
+| Backend | FastAPI, Python, PostgreSQL |
 | Database | Supabase |
-| AI | Hugging Face Transformers |
+| AI | Hugging Face, Qwen2-VL-2B-Instruct |
 | Deployment | AWS S3, Ngrok |
 
----
 
-## 📦 설치 및 실행 (Installation)
-```bash
-# 1. Clone repository
-git clone https://github.com/<username>/<repo-name>.git
-
-# 2. Move into directory
-cd <repo-name>
-
-# 3. Install dependencies
-npm install   # or yarn install
-
-# 4. Run app
-npm start
