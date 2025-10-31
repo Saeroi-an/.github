@@ -2,11 +2,12 @@
 
 # 새로이 안(安)
 
-당신의 편안한 진료를 위해, 사용자 맞춤 AI 의료 서비스 
+당신의 편안한 진료를 위해, <br>
+사용자 맞춤 AI 의료 서비스 
 
 ---
 
-## 📝 소개 (Overview)
+## 🌐 소개 (Overview)
 
 새로이 + 편안할 안(安)
 
@@ -17,7 +18,7 @@
 
 ---
 
-## 📝 공모전 (Contest)
+## 🌐 공모전 (Contest)
 
 ![공모전](./AI.png)
 
@@ -26,15 +27,15 @@
 
 ---
 
-## 📝 기능 (Features)
+## 🌐 기능 (Features)
 
 ![기능1](./service1.png)
 ![기능2](./service2.png)
 ![기능3](./service3.png)
 
----
 
-## 🚀 주요 기능 (Features)
+
+## 🌐 주요 기능 (Features)
 - 사용자 정보 입력 및 관리
 - AI 기반 처방전 인식 및 채팅
 - 셀프 진단 체크
@@ -43,7 +44,7 @@
 
 ---
 
-## 🛠️ 기술 스택 (Tech Stack)
+## 🌐 기술 스택 (Tech Stack)
 | 분류 | 사용 기술 |
 |------|------------|
 | Frontend | React Native (Expo), JavaScript |
