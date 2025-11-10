@@ -42,6 +42,12 @@
 - 다국어 지원 (한국어 / 중국어 / 영어)
 - React Native + FastAPI 연동 구조
 
+## 🌐 AI 모델 (AI)
+- base model: [Qwen2-vl-2B-instruct](https://github.com/QwenLM/Qwen3-VL)
+- LoRA 파인튜닝: [참고 url](https://github.com/2U1/Qwen-VL-Series-Finetune)
+- hugging face: [Rfy23/qwen2vl-ko-zh](https://huggingface.co/Rfy23/qwen2vl-ko-zh)
+
+
 ---
 
 ## 🌐 기술 스택 (Tech Stack)
