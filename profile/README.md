@@ -113,12 +113,13 @@ npx expo start
 | Frontend | React Native (Expo), JavaScript |
 | Backend | FastAPI, Python, PostgreSQL |
 | Database | Supabase |
-| AI | Hugging Face, Qwen2-VL-7B-Instruct |
+| AI | Hugging Face, Qwen2.5-VL-7B-Instruct |
 | Deployment | AWS S3, Ngrok |
 
 ---
 ## 🌐 함께한 팀원(Members)
-| 팀원 | 역할 |-|------|------------|
+| 팀원 | 역할 |
+|------|------------|
 | [신우림(팀장)](https://github.com/Rainwoorimforest) | AI, LangChain |
 | [정혜주](https://github.com/f020202) | Front-End, Design |
 | [이희재](https://github.com/huioid2) | Back-end |
