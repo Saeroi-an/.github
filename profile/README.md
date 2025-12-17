@@ -5,6 +5,8 @@
 
 ## 1단계: 백엔드 서버 활성화(EC2)
 ⚠️ 앱 실행 전, API 서버가 정상적으로 동작하고 있어야 합니다. 
+EC2 인스턴스는 비용 절감을 위해 사용하지 않을 때 중지할 수 있습니다. AWS Console에서 인스턴스를 시작/중지하고싶으시면 문의부탁드립니다.
+
 **EC2 인스턴스 접속**
    ```bash
    ssh -i your-key.pem ubuntu@your-ec2-ip
@@ -42,7 +44,7 @@ npm install
 yarn install
 ```
 
-⚠️ 프로젝트 루트에 .env.example 파일을 복사하여 .env을 생성하고, BACKEND_API_URL, SUPABASE_URL, SUPABASE_ANON_KEY 등 필요한 환경 변수 값을 입력하였는지 확인합니다.
+⚠️ 프로젝트 루트에 .env.example 파일을 복사하여 .env을 생성해야합니다. 원하시면 문의부탁드립니다. 
 
 **Expo 개발 서버 실행**
  ```bash
