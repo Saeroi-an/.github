@@ -49,10 +49,10 @@
 - 🤗 hugging face: [Rfy23/qwenvl-7B-medical-ko-zh](https://huggingface.co/Rfy23/qwenvl-7B-medical-ko-zh)
 
 ---
-# 🌐 프로젝트 실행 가이드
+## 🌐 프로젝트 실행 가이드 (Set up)
 프론트엔드와 백엔드로 구성된 프로젝트입니다. 아래 실행 가이드를 순서대로 지켜주세요.
 
-## 1단계: 백엔드 서버 활성화(EC2)
+### 1단계: 백엔드 서버 활성화(EC2)
 ⚠️ 앱 실행 전, API 서버가 정상적으로 동작하고 있어야 합니다. 
 EC2 인스턴스는 비용 절감을 위해 사용하지 않을 때 중지할 수 있습니다. AWS Console에서 인스턴스를 시작/중지하고싶으시면 문의부탁드립니다.
 
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 sudo systemctl restart saeroi-an-backend
 ```
 
-## 2단계: 프론트엔드 설정 및 앱 실행
+### 2단계: 프론트엔드 설정 및 앱 실행
 프론트엔드 코드는 [여기](https://github.com/Saeroi-an/FrontEnd)에서 확인할 수 있습니다.
 
 우리 프로젝트 프론트엔드 링크를 눌러 git clone을 하거나 아래 git clone bash를 copy 해주세요. 
@@ -100,7 +100,7 @@ yarn install
 npx expo start
 ```
 
-## 3단계: 모바일 기기 실행
+### 3단계: 모바일 기기 실행
 **'Expo Go'앱 설치**
 - iOS: [App Store 다운로드 링크](https://apps.apple.com/us/app/expo-go/id982107779)
 - Android의: [Play Store 다운로드 링크](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=ko)
@@ -115,3 +115,10 @@ npx expo start
 | Database | Supabase |
 | AI | Hugging Face, Qwen2-VL-7B-Instruct |
 | Deployment | AWS S3, Ngrok |
+
+---
+## 🌐 함께한 팀원(Members)
+| 팀원 | 역할 |-|------|------------|
+| [신우림(팀장)](https://github.com/Rainwoorimforest) | AI, LangChain |
+| [정혜주](https://github.com/f020202) | Front-End, Design |
+| [이희재](https://github.com/huioid2) | Back-end |
