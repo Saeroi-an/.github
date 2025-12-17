@@ -18,37 +18,6 @@
 사용자 정보를 기반으로 처방전 인식, 셀프 진단 체크, 주변 정보를 제공받습니다. <br>
 
 ---
-
-## 🌐 공모전 (Contest)
-
-![공모전](./AI.png)
-
-'인공지능(AI), 충북의 미래를 디자인하다'<br>
-전국 ICT 융합 공모전을 함께 준비하고있습니다. 
-
----
-
-## 🌐 기능 (Features)
-
-![기능1](./service1.png)
-![기능2](./service2.png)
-![기능3](./service3.png)
-
-
-
-## 🌐 주요 기능 (Features)
-- 사용자 정보 입력 및 관리
-- AI 기반 처방전 인식 및 채팅
-- 셀프 진단 체크
-- 다국어 지원 (한국어 / 중국어 / 영어)
-- React Native + FastAPI 연동 구조
-
-## 🌐 AI 모델 (AI)
-- base model: [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
-- LoRA 파인튜닝: [참고 url]([https://github.com/2U1/Qwen-VL-Series-Finetune](https://github.com/QwenLM/Qwen-VL))
-- 🤗 hugging face: [Rfy23/qwenvl-7B-medical-ko-zh](https://huggingface.co/Rfy23/qwenvl-7B-medical-ko-zh)
-
----
 ## 🌐 프로젝트 실행 가이드 (Set up)
 프론트엔드와 백엔드로 구성된 프로젝트입니다. 아래 실행 가이드를 순서대로 지켜주세요.
 
@@ -104,6 +73,39 @@ npx expo start
 **'Expo Go'앱 설치**
 - iOS: [App Store 다운로드 링크](https://apps.apple.com/us/app/expo-go/id982107779)
 - Android의: [Play Store 다운로드 링크](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=ko)
+
+---
+## 🌐 공모전 (Contest)
+
+![공모전](./AI.png)
+
+'인공지능(AI), 충북의 미래를 디자인하다'<br>
+전국 ICT 융합 공모전을 함께 준비하고있습니다. 
+
+---
+
+## 🌐 기능 (Features)
+
+![기능1](./service1.png)
+![기능2](./service2.png)
+![기능3](./service3.png)
+
+---
+
+## 🌐 주요 기능 (Features)
+- 사용자 정보 입력 및 관리
+- AI 기반 처방전 인식 및 채팅
+- 셀프 진단 체크
+- 다국어 지원 (한국어 / 중국어 / 영어)
+- React Native + FastAPI 연동 구조
+
+---
+
+## 🌐 AI 모델 (AI)
+- base model: [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
+- LoRA 파인튜닝: [참고 url]([https://github.com/2U1/Qwen-VL-Series-Finetune](https://github.com/QwenLM/Qwen-VL))
+- 🤗 hugging face: [Rfy23/qwenvl-7B-medical-ko-zh](https://huggingface.co/Rfy23/qwenvl-7B-medical-ko-zh)
+- Repo: [새로이안 AI Repo](https://github.com/Saeroi-an/AI)
 
 ---
 
