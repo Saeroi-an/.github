@@ -84,7 +84,7 @@ sudo systemctl restart saeroi-an-backend
 
 우리 프로젝트 프론트엔드 링크를 눌러 git clone을 하거나 아래 git clone bash를 copy 해주세요. 
  ```bash
-git clone [https://github.com/Saeroi-an/FrontEnd.git](https://github.com/Saeroi-an/FrontEnd.git)
+git clone https://github.com/Saeroi-an/FrontEnd.git
 ```
 **의존성 패키지 설치**
  ```bash
@@ -101,7 +101,7 @@ npx expo start
 ```
 
 ## 3단계: 모바일 기기 실행
-_'Expo Go'_앱 설치
+**'Expo Go'앱 설치**
 - iOS: [App Store 다운로드 링크](https://apps.apple.com/us/app/expo-go/id982107779)
 - Android의: [Play Store 다운로드 링크](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=ko)
 
