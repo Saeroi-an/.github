@@ -29,6 +29,8 @@ sudo systemctl restart saeroi-an-backend
 ```
 
 ## 2단계: 프론트엔드 설정 및 앱 실행
+프론트엔드 코드는 [여기](https://github.com/Saeroi-an/FrontEnd)에서 확인할 수 있습니다.
+
 우리 프로젝트 프론트엔드 링크를 눌러 git clone을 하거나 아래 git clone bash를 copy 해주세요. 
  ```bash
 git clone [https://github.com/Saeroi-an/FrontEnd.git](https://github.com/Saeroi-an/FrontEnd.git)
