@@ -2,9 +2,9 @@
 
 ## 실행방법
 - **프론트엔드:**
-  1) 프론트엔드 Repository를 Git 클론하기
-  2) 의존성 패키지 설치하기: [bash] npm install 또는 yarn install
-  3) 환경 변수 설정:
+  1. FrontEnd Repository를 Git 클론하기: git clone https://github.com/Saeroi-an/FrontEnd.git
+  2. 의존성 패키지 설치하기: [bash] npm install 또는 yarn install
+  3. 환경 변수 설정:
    .env 파일 생성
    cp .env.example .env
    `.env` 파일을 열어 다음 항목들을 설정하세요:
@@ -13,10 +13,10 @@
    SUPABASE_ANON_KEY=your-supabase-anon-key
    ... 기타 필요한 환경 변수
    환경 변수 값 획득 방법: 프로젝트 관리자에게 문의
-  4) Expo 개발 서버 실행
+  4. Expo 개발 서버 실행
   [bash]
   npx expo start
-  5) 모바일 기기에서 앱 실행
+  5. 모바일 기기에서 앱 실행
   개발 서버가 시작되면 터미널에 QR 코드가 표시됩니다.
    
    **iOS의 경우:**
@@ -30,25 +30,25 @@
    - 또는 터미널에서 `a` 키를 눌러 Android 에뮬레이터에서 실행
 
    > **참고**: 모바일 기기와 개발 PC가 같은 Wi-Fi 네트워크에 연결되어 있어야 합니다.
-  6) **개발 중 유용한 명령어**
+  6. **개발 중 유용한 명령어**
    - `r`: 앱 새로고침
    - `m`: 개발자 메뉴 열기
    - `Ctrl + C`: 개발 서버 종료
 
 - **백엔드:**
-  1) AWS에서 관리자가 EC2 인스턴스 실행
-  2) EC2 인스턴스 접속
+  1. AWS에서 관리자가 EC2 인스턴스 실행
+  2. EC2 인스턴스 접속
       ssh -i your-key.pem ubuntu@your-ec2-ip
-  3) 서비스 상태 확인
+  3. 서비스 상태 확인
       sudo systemctl status saeroi-an-backend
-  4) **서버 시작/재시작:**
+  4. **서버 시작/재시작:**
     [bash]
     #서버 시작
     sudo systemctl start saeroi-an-backend
     #서버 재시작 (코드 업데이트 후)
     sudo systemctl restart saeroi-an-backend
-  7) #로그 확인
-  sudo journalctl -u saeroi-an-backend -f
+  5. #로그 확인
+    sudo journalctl -u saeroi-an-backend -f
 
   **코드 배포 (업데이트):**
 ```[bash]
