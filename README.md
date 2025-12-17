@@ -1,4 +1,4 @@
-![프로젝트 미리보기](./main.png)
+![프로젝트 미리보기](./profile/main.png)
 
 
 # 새로이 안(安)
@@ -21,7 +21,7 @@
 
 ## 🌐 공모전 (Contest)
 
-![공모전](./AI.png)
+![공모전](.//profile/AI.png)
 
 '인공지능(AI), 충북의 미래를 디자인하다'<br>
 전국 ICT 융합 공모전을 함께 준비하고있습니다. 
@@ -30,9 +30,9 @@
 
 ## 🌐 기능 (Features)
 
-![기능1](./service1.png)
-![기능2](./service2.png)
-![기능3](./service3.png)
+![기능1](./profile/service1.png)
+![기능2](./profile/service2.png)
+![기능3](./profile/service3.png)
 
 
 
