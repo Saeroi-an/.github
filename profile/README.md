@@ -68,6 +68,7 @@ yarn install
  ```bash
 npx expo start
 ```
+*터미널에 나타난 QR 코드를 스캔하면 'Expo Go' 앱에서 열립니다.
 
 ### 3단계: 모바일 기기 실행
 **'Expo Go'앱 설치**
